@@ -2,7 +2,7 @@
 
 ## RSSchool JavaScript/Front-end Course student
 
-**Address**
+**Address**  
 Ukraine Zaporizhzhya
 
 **phone**  
@@ -10,3 +10,14 @@ Ukraine Zaporizhzhya
 
 **git**  
 https://github.com/Arimototoku
+
+I am working as a service engineer. I think it's time to change my life, so I decided to learn something new, like programming language, english.
+Now goal is to be a front-end developer.
+
+## Skills
+
+HTML (basic)  
+Markdown(basic)  
+CSS (basic)  
+JS (basic)
+git (basic)
