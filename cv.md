@@ -26,4 +26,12 @@ git (basic)
 
 see my github
 
-## Expirience
+## Experience
+
+## Education
+
+2005-2007 - Computer Academy "ITStep"
+
+## English
+
+Low Intermediate
