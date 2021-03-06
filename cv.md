@@ -12,7 +12,7 @@ Ukraine Zaporizhzhya
 https://github.com/Arimototoku
 
 I am working as a service engineer. I think it's time to change my life, so I decided to learn something new, like programming language, english.
-Now goal is to be a front-end developer.
+Now my goal is to be a front-end developer.
 
 ## Skills
 
