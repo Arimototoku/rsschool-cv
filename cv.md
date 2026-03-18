@@ -19,3 +19,16 @@
 - Technical Troubleshooting
 - Customer Support
 - Cartridge Refilling & Printing Supplies
+
+## Education
+
+### Degree Name
+
+**IT STEP** | [2005]
+
+- System Administrator
+
+## Skills
+
+- **Languages:** JavaScript, HTML, etc.
+- **Other:** Git
