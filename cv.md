@@ -32,3 +32,9 @@
 
 - **Languages:** JavaScript, HTML, etc.
 - **Other:** Git
+
+## Languages
+
+- Russian -Native
+- Ukrainian – Fluent
+- English - B1 (Intermediate)
