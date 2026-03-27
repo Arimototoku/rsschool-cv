@@ -16,15 +16,15 @@ h4 {
 }
 
 body {
+    max-width: 1230px;
     background-color: #A9ABD4;
+    margin: 0 auto;
+    font-family: Bahnschrift, sans-serif;
 }
 
 .wrapper {
-    font-family: Bahnschrift, sans-serif;
     display: flex;
     justify-content: center;
-    max-width: 1230px;
-    margin: 0 auto;
     background-color: #FFFFFF;
 }
 
@@ -312,3 +312,18 @@ body {
     width: 50%;
     border-radius: 0 0 15px;
 }
+
+footer {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.github-link {}
+
+.year {
+    font-size: 40px;
+}
+
+.rsschool-link {}
