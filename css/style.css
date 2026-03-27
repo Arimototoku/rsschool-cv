@@ -1,15 +1,31 @@
 h1,
 h2,
-h3 {
+h3,
+h4 {
     margin: 0;
 }
 
+h3 {
+    font-weight: normal;
+    font-size: 35px;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+body {
+    background-color: #A9ABD4;
+}
+
 .wrapper {
+    font-family: Bahnschrift, sans-serif;
     display: flex;
     justify-content: center;
-    font-family: Montserrat;
     max-width: 1230px;
     margin: 0 auto;
+    background-color: #FFFFFF;
 }
 
 .flex-container {
@@ -18,11 +34,14 @@ h3 {
 }
 
 .sidebar {
-    padding: 10px;
+    padding: 80px 50px;
     background-color: #44477C;
+
 }
 
-.main-content {}
+.main-content {
+    padding: 90px 60px;
+}
 
 .circle-cv {
     display: flex;
@@ -36,21 +55,50 @@ h3 {
     color: #FFFFFD;
 }
 
-.text-contacts {
+.contact-container {
+    margin-top: 90px;
+    margin-left: 15px;
     color: #FFFFFD;
+}
+
+.text-contacts {
+    font-size: 50px;
     text-transform: uppercase;
+
+}
+
+.contacts {
+    margin-top: 90px;
+}
+
+.contact-heads {
+    font-size: 40px;
+
 }
 
 .phone {
-    color: #FFFFFD;
+    font-size: 35px;
+}
+
+.contact-web {
+    margin-top: 60px;
 }
 
 .web {
-    color: #FFFFFD;
+    font-size: 35px;
+}
+
+.contact-email {
+    margin-top: 60px;
 }
 
 .email {
-    color: #FFFFFD;
+    font-size: 35px;
+}
+
+.languages-container {
+    margin-top: 350px;
+    font-size: 35px;
 }
 
 .text-languages {
@@ -59,26 +107,208 @@ h3 {
 }
 
 .languages {
+    margin-top: 75px;
     color: #FFFFFD;
     text-transform: uppercase;
 }
 
+.language {
+    margin-top: 20px;
+}
+
+.language-bar-background {
+    background-color: #FFFFFD;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.language-bar-russian {
+    background-color: #352B6A;
+    height: 8px;
+    margin-top: -8px;
+    border-radius: 0 0 15px;
+    width: 95%;
+}
+
+.language-bar-ukrainian {
+    background-color: #352B6A;
+    height: 8px;
+    margin-top: -8px;
+    border-radius: 0 0 15px;
+    width: 70%;
+}
+
+.language-bar-english {
+    background-color: #352B6A;
+    height: 8px;
+    margin-top: -8px;
+    border-radius: 0 0 15px;
+    width: 50%;
+}
+
 .name {
     color: #352B6A;
-    font-size: 90px;
+    font-size: 70px;
     text-transform: uppercase;
+
 }
 
 .vacancy {
     color: #A8AAD3;
     font-size: 40px;
+    padding-left: 5px;
 }
 
 .section-about-me {
+    margin-top: 85px;
+}
+
+.text-about-me {
     background-color: #A8ABD4;
-    padding: 10px 50px 10px 100px;
+    margin-left: -60px;
+    padding: 5px 30px 0 60px;
     width: fit-content;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
     color: #FFFFFD;
     font-size: 32px;
+    text-transform: uppercase;
+}
+
+.about-me {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #322B57;
+}
+
+.section-education {
+    margin-top: 95px;
+}
+
+.text-education {
+    background-color: #A8ABD4;
+    margin-left: -60px;
+    padding: 5px 30px 0 60px;
+    width: fit-content;
+    border-radius: 0 15px 15px 0;
+    color: #FFFFFD;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.academy {
+    margin-top: 70px;
+}
+
+.academy-name {
+    color: #352B6A;
+    text-transform: uppercase;
+}
+
+.academy-year {
+    color: #B3B1C6;
+}
+
+.field-of-study {
+    color: #322B57;
+}
+
+.section-work-experience {
+    margin-top: 95px;
+}
+
+.text-work-experience {
+    background-color: #A8ABD4;
+    margin-left: -60px;
+    padding: 5px 30px 0 60px;
+    width: fit-content;
+    border-radius: 0 15px 15px 0;
+    color: #FFFFFD;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.organization-name {
+    margin-top: 70px;
+    color: #352B6A;
+    text-transform: uppercase;
+}
+
+.occupation {
+    color: #B3B1C6;
+}
+
+.occupation-year {
+    color: #B3B1C6;
+}
+
+.work-skills {
+    font-size: 20px;
+    color: #322B57;
+}
+
+.section-skills {
+    margin-top: 85px;
+}
+
+.text-skills {
+    background-color: #A8ABD4;
+    margin-left: -60px;
+    padding: 5px 30px 0 60px;
+    width: fit-content;
+    border-radius: 0 15px 15px 0;
+    color: #FFFFFD;
+    font-size: 32px;
+    text-transform: uppercase;
+
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.skill-name {
+    padding: 10px;
+    color: #352B6A;
+    text-transform: uppercase;
+}
+
+.skill-bar-background {
+    height: 8px;
+    background-color: #A8ABD4;
+    border-radius: 4px;
+}
+
+.skill-bar-html {
+    height: 8px;
+    background-color: #352B6A;
+    margin-top: -8px;
+    width: 70%;
+    border-radius: 0 0 15px;
+}
+
+.skill-bar-css {
+    height: 8px;
+    background-color: #352B6A;
+    margin-top: -8px;
+    width: 50%;
+    border-radius: 0 0 15px;
+}
+
+.skill-bar-javascript {
+    height: 8px;
+    background-color: #352B6A;
+    margin-top: -8px;
+    width: 20%;
+    border-radius: 0 0 15px;
+}
+
+.skill-bar-git {
+    height: 8px;
+    background-color: #352B6A;
+    margin-top: -8px;
+    width: 50%;
+    border-radius: 0 0 15px;
 }
