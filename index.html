@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li class="menu-element"><a href="#about-me">About me</a></li>
+        <li class="menu-element"><a href="#education">Education</a></li>
+        <li class="menu-element"><a href="#work-experience">Work
+            experience</a></li>
+        <li class="menu-element"><a href="#skills">Skills</a></li>
+        <li class="menu-element"><a href="#code-example">Code Example</a></li>
+        <li class="menu-element"><a href="#my-projects">My projects</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+    <div class="flex-container">
+      <aside class="sidebar">
+        <div class="circle-cv">
+          <img src="./images/avatar.jpg" alt="avatar" width="260" height="260">
+        </div>
+        <section class="contact-container">
+          <h2 class="text-contacts">Contact</h2>
+          <ul class="contacts">
+            <li class="contact-phone">
+              <h3 class="contact-heads">Phone</h3>
+              <h3 class="phone">+38066*******</h3>
+            </li>
+            <li class="contact-web">
+              <h3 class="contact-heads">Web</h3>
+              <h3 class="web">http://mysite.com</h3>
+            </li>
+            <li class="contact-email">
+              <h3 class="contact-heads">E-mail</h3>
+              <h3 class="email">sonne@i.ua</h3>
+            </li>
+          </ul>
+        </section>
+        <section class="languages-container">
+          <h3 class="text-languages">Languages</h3>
+          <div class="languages">
+            <h3 class="language">Russian</h3>
+            <div class="language-bar-background"></div>
+            <div class="language-bar-russian"></div>
+
+            <h3 class="language">Ukrainian</h3>
+            <div class="language-bar-background"></div>
+            <div class="language-bar-ukrainian"></div>
+
+            <h3 class="language">English</h3>
+            <div class="language-bar-background"></div>
+            <div class="language-bar-english"></div>
+          </div>
+        </section>
+      </aside>
+      <main class="main-content">
+        <section>
+          <h1 class="name">Igor Shirobokov</h1>
+          <h2 class="vacancy">Frontend Developer</h2>
+        </section>
+
+        <section class="section-about-me" id="about-me">
+          <h3 class="text-about-me">About me</h3>
+          <p class="about-me">
+            I am a technician with hands-on experience in computer and office
+            equipment repair, including diagnostics, maintenance, and
+            cartridge refilling. Currently expanding my skills in IT and web
+            development. I enjoy solving technical problems and continuously
+            improving my knowledge.
+          </p>
+        </section>
+
+        <section class="section-education" id="education">
+          <h3 class="text-education">Education</h3>
+          <div class="academy">
+            <div class="academy-name">
+              <h3>Computer Academy ITStep</h3>
+            </div>
+            <div class="academy-year">
+              <h3>2002 - 2004</h3>
+            </div>
+            <div class="field-of-study">
+              <h4>System Administrator</h4>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-work-experience" id="work-experience">
+          <h3 class="text-work-experience">Work experience</h3>
+          <div class="organization-name">
+            <h3>KROS Engineering Co.</h3>
+          </div>
+          <div class="occupation">
+            <h3>System Administrator</h3>
+          </div>
+          <div class="occupation-year">
+            <h3>2003 - 2026</h3>
+          </div>
+          <ul class="work-skills">
+            <li>
+              Performed diagnostics and repair of computers, laptops, and
+              office equipment
+            </li>
+            <li>Installed, configured, and maintained operating systems</li>
+            <li>
+              Diagnosed hardware failures and replaced defective components
+            </li>
+            <li>
+              Resolved system-level issues including boot errors and
+              corrupted OS files
+            </li>
+            <li>
+              Serviced printers and multifunction devices, including
+              cartridge refilling
+            </li>
+            <li>Configured and maintained small network environments</li>
+            <li>Provided technical support and customer consultation</li>
+          </ul>
+        </section>
+
+        <section class="section-skills" id="skills">
+          <h3 class="text-skills">Skills</h3>
+          <div class="skills">
+            <div class="skill-name">
+              <h3>HTML</h3>
+            </div>
+            <div>
+              <div class="skill-bar-background"></div>
+              <div class="skill-bar-html"></div>
+            </div>
+            <div class="skill-name">
+              <h3>CSS</h3>
+            </div>
+            <div>
+              <div class="skill-bar-background"></div>
+              <div class="skill-bar-css"></div>
+            </div>
+            <div class="skill-name">
+              <h3>JavaScript</h3>
+            </div>
+            <div>
+              <div class="skill-bar-background"></div>
+              <div class="skill-bar-javascript"></div>
+            </div>
+            <div class="skill-name">
+              <h3>GIT</h3>
+            </div>
+            <div>
+              <div class="skill-bar-background"></div>
+              <div class="skill-bar-git"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-code-example" id="code-example">
+          <h3 class="text-code-example">Code example</h3>
+          <pre class="code-example">
+            <code>
+    let count = 0;
+
+    const button = document.getElementById('btn');
+    const counter = document.getElementById('counter');
+
+    button.addEventListener('click', function () {
+    count = count + 1;
+    counter.textContent = count;
+    });
+          </code>
+        </pre>
+        </section>
+
+        <section class="section-my-projects" id="my-projects">
+          <h3 class="text-my-projects">My projects</h3>
+          <div class="my-project">
+            <a href="https://arimototoku.github.io/rsschool-cv/"> CV
+            </a>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+  <footer>
+    <div class="github-link">
+      <a href="https://github.com/Arimototoku/"><img src="https://www.svgrepo.com/show/394174/github.svg"
+          alt="github-logo" width="64" height="64"></a>
+    </div>
+    <div class="year">2026</div>
+    <div class="rsschool-link">
+      <a href="https://rs.school/courses/javascript-ru"><img
+          src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/0b9490ff1b5493242c862130c81d9c9edaa16f8a/tasks/cv/rs-school-logo.svg"
+          alt="rsschool-logo" width="140"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
