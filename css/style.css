@@ -18,10 +18,9 @@ h4 {
 a {
     text-decoration: none;
     color: inherit;
-
 }
 
-ul{
+ul {
     list-style: none;
     padding: 0;
 }
@@ -54,7 +53,6 @@ body {
 
 .flex-container {
     display: flex;
-
 }
 
 .sidebar {
@@ -89,7 +87,6 @@ body {
 .text-contacts {
     font-size: 50px;
     text-transform: uppercase;
-
 }
 
 .contacts {
@@ -98,7 +95,6 @@ body {
 
 .contact-heads {
     font-size: 40px;
-
 }
 
 .phone {
@@ -175,7 +171,6 @@ body {
     color: #352B6A;
     font-size: 70px;
     text-transform: uppercase;
-
 }
 
 .vacancy {
@@ -284,7 +279,6 @@ body {
     color: #FFFFFD;
     font-size: 32px;
     text-transform: uppercase;
-
 }
 
 .skills {
@@ -357,6 +351,28 @@ body {
     margin-top: 40px;
     font-size: 20px;
     color: #322B57;
+}
+
+.section-my-projects {
+    margin-top: 85px;
+}
+
+.text-my-projects {
+    background-color: #A8ABD4;
+    margin-left: -60px;
+    padding: 5px 30px 0 60px;
+    width: fit-content;
+    border-radius: 0 15px 15px 0;
+    color: #FFFFFD;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.my-project {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #322B57;
+    font-size: 35px;
 }
 
 footer {
