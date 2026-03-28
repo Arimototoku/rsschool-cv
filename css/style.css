@@ -21,9 +21,13 @@ a {
 
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+}
+
 .menu {
     display: flex;
-    list-style: none;
     color: #FFFFFD;
     font-size: 32px;
     justify-content: space-around;
@@ -334,6 +338,27 @@ body {
     border-radius: 0 0 15px;
 }
 
+.section-code-example {
+    margin-top: 85px;
+}
+
+.text-code-example {
+    background-color: #A8ABD4;
+    margin-left: -60px;
+    padding: 5px 30px 0 60px;
+    width: fit-content;
+    border-radius: 0 15px 15px 0;
+    color: #FFFFFD;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.code-example {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #322B57;
+}
+
 footer {
     gap: 20px;
     display: flex;
@@ -341,10 +366,7 @@ footer {
     justify-content: space-around;
 }
 
-.github-link {}
 
 .year {
     font-size: 40px;
 }
-
-.rsschool-link {}

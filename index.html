@@ -15,6 +15,8 @@
         <li class="menu-element"><a href="#education">Education</a></li>
         <li class="menu-element"><a href="#work-experience">Work experience</a></li>
         <li class="menu-element"><a href="#skills">Skills</a></li>
+        <li class="menu-element"><a href="#code-example">Code Example</a></li>
+
       </ul>
     </nav>
   </header>
@@ -26,20 +28,20 @@
         </div>
         <section class="contact-container">
           <h2 class="text-contacts">Contact</h2>
-          <div class="contacts">
-            <div class="contact-phone">
+          <ul class="contacts">
+            <li class="contact-phone">
               <h3 class="contact-heads">Phone</h3>
               <h3 class="phone">+38066*******</h3>
-            </div>
-            <div class="contact-web">
+            </li>
+            <li class="contact-web">
               <h3 class="contact-heads">Web</h3>
               <h3 class="web">http://mysite.com</h3>
-            </div>
-            <div class="contact-email">
+            </li>
+            <li class="contact-email">
               <h3 class="contact-heads">E-mail</h3>
               <h3 class="email">sonne@i.ua</h3>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="languages-container">
           <h3 class="text-languages">Languages</h3>
@@ -101,28 +103,26 @@
           <div class="occupation-year">
             <h3>2003 - 2026</h3>
           </div>
-          <div class="work-skills">
-            <ul>
-              <li>
-                Performed diagnostics and repair of computers, laptops, and
-                office equipment
-              </li>
-              <li>Installed, configured, and maintained operating systems</li>
-              <li>
-                Diagnosed hardware failures and replaced defective components
-              </li>
-              <li>
-                Resolved system-level issues including boot errors and
-                corrupted OS files
-              </li>
-              <li>
-                Serviced printers and multifunction devices, including
-                cartridge refilling
-              </li>
-              <li>Configured and maintained small network environments</li>
-              <li>Provided technical support and customer consultation</li>
-            </ul>
-          </div>
+          <ul class="work-skills">
+            <li>
+              Performed diagnostics and repair of computers, laptops, and
+              office equipment
+            </li>
+            <li>Installed, configured, and maintained operating systems</li>
+            <li>
+              Diagnosed hardware failures and replaced defective components
+            </li>
+            <li>
+              Resolved system-level issues including boot errors and
+              corrupted OS files
+            </li>
+            <li>
+              Serviced printers and multifunction devices, including
+              cartridge refilling
+            </li>
+            <li>Configured and maintained small network environments</li>
+            <li>Provided technical support and customer consultation</li>
+          </ul>
         </section>
 
         <section class="section-skills" id="skills">
@@ -158,6 +158,22 @@
             </div>
           </div>
         </section>
+
+        <section class="section-code-example" id="code-example">
+          <h3 class="text-code-example">Code example</h3>
+          <code><pre class="code-example">
+    let count = 0;
+
+    const button = document.getElementById('btn');
+    const counter = document.getElementById('counter');
+
+    button.addEventListener('click', function () {
+    count = count + 1;
+    counter.textContent = count;
+    });
+          </pre></code>
+        </section>
+
       </main>
     </div>
   </div>
